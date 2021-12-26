@@ -4,6 +4,8 @@ Counting DNA Nucleotides
 
 f = open('../data/dna.txt')
 dna = f.readline().rstrip()
+f.close()
+
 a = 0
 c = 0
 g = 0
